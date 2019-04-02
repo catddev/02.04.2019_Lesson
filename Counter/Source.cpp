@@ -25,5 +25,12 @@ int main() {
 	c2.increaseValue();
 	cout << c2.getCurrentValue() << endl;
 
+	int a, b, cc; //нельзя просто с, а то сверху есть переменная Counter c;
+	cin >> a >> b >> cc;
+	Counter cn(a, b, cc);
+	cn.increaseValue();
+	cout << cn.getCurrentValue() << endl;
+
+
 	system("pause");
 }

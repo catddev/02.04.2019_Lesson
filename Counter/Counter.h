@@ -1,5 +1,10 @@
 ﻿#pragma once
 #include<iostream>
+#include <iomanip>
+#include<Windows.h>
+#include<ctime>
+#include<cstring>
+#include<fstream>
 using namespace std;
 
 
