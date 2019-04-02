@@ -12,11 +12,11 @@ void add(Student*&ss, Student el) {
 		if (cur_size == buf_size)
 		{
 			buf_size *= 2;
-			Student*tmp = new Student[buf_size];
+			Student*tmp1 = new Student[buf_size];
 			for (int i = 0; i < cur_size; i++)
-				tmp[i] = ss[i];
+				tmp1[i] = ss[i];
 			delete[] ss;
-			ss = tmp;
+			ss = tmp1;
 		}
 	}
 	ss[cur_size++] = el;

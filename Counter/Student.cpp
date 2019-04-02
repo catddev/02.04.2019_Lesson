@@ -114,6 +114,7 @@ bool Student::printStudentsByDate(int years)
 }
 void Student::print()
 {
+	cout << endl;
 	cout << surname << " " << name << " " << patronymic << " ";
 	cout << date_of_birth.day << "/" <<date_of_birth.month << "/" << date_of_birth.year;
 	cout << address << " " << phone << " " << faculty << " " << curse << endl;
