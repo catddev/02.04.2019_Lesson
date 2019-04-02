@@ -1,8 +1,8 @@
-#include"Student.h"
+п»ї#include"Student.h"
 
 void Student::setSurname(const char * surname)
 {
-	strcpy_s(this->surname, surname); //this обращает в эту переменную
+	strcpy_s(this->surname, surname); //this РѕР±СЂР°С‰Р°РµС‚ РІ СЌС‚Сѓ РїРµСЂРµРјРµРЅРЅСѓСЋ
 }
 
 void Student::setName(const char * name)

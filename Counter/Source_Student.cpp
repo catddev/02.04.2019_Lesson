@@ -1,4 +1,4 @@
-#include"Student.h"
+﻿#include"Student.h"
 
 int cur_size = 0, buf_size = 0;
 void add(Student*&ss, Student el) {
